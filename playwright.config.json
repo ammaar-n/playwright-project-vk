@@ -1,0 +1,6 @@
+{
+  "playwrightConfig": {
+    "suiteCommand": "create:suite",
+    "suiteArgs": "SHEET=Regression"
+  }
+}
