@@ -8,7 +8,7 @@ const timeInMin: number = 60 * 1000;
 const config: PlaywrightTestConfig = {
   use: {
     browserName: Browser.type(process.env.BROWSER.toLowerCase()),
-    headless: false,
+    headless: true,
     channel: Browser.channel(process.env.BROWSER.toLowerCase()),
     launchOptions: {
       args: ["--start-maximized", "--disable-extensions", "--disable-plugins"],
