@@ -1,6 +1,6 @@
 {
   "playwrightConfig": {
     "suiteCommand": "create:suite",
-    "suiteArgs": "SHEET=Regressio"
+    "suiteArgs": "SHEET=Regression"
   }
 }
